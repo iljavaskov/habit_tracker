@@ -201,9 +201,9 @@ pytest 8.4.2
 
 ## Contributing
 Donation Options:
-LTC Address: ltc1qurgav8kwdy5mve2fhpd2xz8rx8sascd07ez2ff
-XRP Address: rLNmmcNEizWaygypRVTKaWoZG6RrqfsJpi
-- Destination Tag: 1132595107
+- LTC Address: ltc1qurgav8kwdy5mve2fhpd2xz8rx8sascd07ez2ff
+- XRP Address: rLNmmcNEizWaygypRVTKaWoZG6RrqfsJpi
+	- Destination Tag: 1132595107
 
 
 ## License
