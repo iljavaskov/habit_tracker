@@ -120,7 +120,7 @@ def load_habit_from_db(habit_id):
     SELECT completion_dates FROM tracking WHERE habit_id = ?
     ''', (habit_id,))
 
-    habit.completion_dates = [datetime.datetime.fromisoformat(row[0]).date() for row in cursor.fetchall()]  
+    habit.completion_dates = [datetime.datetime.fromisoformat(row[0]).date() for row in cursor.fetchall() if row[0] is not None]  
 
     conn.close()
     return habit
